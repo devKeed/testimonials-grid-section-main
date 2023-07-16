@@ -13,7 +13,7 @@ body{
 
 .page-wrapper{
     max-width: 85%;
-    margin: 5% auto;
+    margin: 3rem auto;
 }
 
 .grid-container{
@@ -68,9 +68,13 @@ h5{
 }
 
 .one{
+    background: url(./testimonials-grid-section-main/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 70% 0%;
     grid-area: one;
     background-color: hsl(283, 94%, 34%);
     color: hsl(0, 0%, 100%);
+    
 }
 
 .one .card-header img{
