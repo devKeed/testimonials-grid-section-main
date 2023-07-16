@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper{
+    background-color: hsl(210, 46%, 95%);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: "one one two five"
+    "three four four five";
+    gap: 1rem;
+}
+
+.card-header{
+    display: flex;
+    align-items: flex-start;
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.one{
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
